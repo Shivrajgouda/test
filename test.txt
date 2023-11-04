@@ -1,0 +1,216 @@
+ans 1. java 
+       it is used to run the file in terminal with filename after compilation.
+       ex java filename
+
+       javac
+       it is used to compile the source code.
+       ex javac filename.java
+
+ans 2. jdk
+       java delevopment kit 
+       it contains jvm and jre in it.
+
+       JRE
+       java Runtime Environment
+       we have to set the java run time environment
+       in c drive /programefiles /java /jdk and set the variable.
+
+       JVM
+       Java Virtual Machine 
+       it is used to convert source code to byte code or machine language.
+
+ans 3. .java file
+       it cointains the source code in it and used to compile.
+
+       .java class
+       it is a raw file of the .java file.
+
+ans 4. java IDE's are
+       NetBeans
+       Eclipes
+       AndroidStudio
+       
+ans 5. a variable is a like container that stores the value or literal in it. 
+       types.
+       global variables these are accessible to every class in java
+       static variable these can be accessible for static members only.
+       local variables these are declared in the class and scope is within the class.
+       constant variables these are used to aasing constant values so that it can't be changed.
+
+       ex 
+          int a=3;
+          class ab{
+          public static void main(String[] args){
+         }
+          }
+        
+          class abc{
+          static int a=3;
+          public static void main(String[] args){
+          
+          }
+          }          
+          
+          class abcd{
+          int a=3;
+          public static void main(String[] args){
+          }
+          }
+ 
+          class abcde{
+          const a=3;
+          public static void main(String[] args){
+          }
+          }
+
+ans 6. OOP's in java 
+       it is used to indicate real word objects in promming
+       the main four pillars in OOPs in java are 
+       Abstraction it will be present in every java class it is used to hide the implement.  
+       Inheritance it will be present in every java class it is used extract parent class properties to child class there are types of inheritance multiple inheritance 
+       multilevel inheritance,single inheritance, hirarical inheritance, hybrid inheritance.
+       Polymorphism it will be present in every java class it means a function with different name with simailar functionalitise. types are compile time polimorphism 
+       and run-time polymorphism. 
+       Enclapsulation the process of hidding the implimentation and showing the implimentation to the user that are allowed to show.
+
+ans 7. run 
+ 
+ans 8. data types are used to store the value of similar types of data.
+       ex Primite types
+          int
+          float
+          double
+          Long
+          short
+          byte
+          boolean
+          enum
+          
+          non primitive types
+          array[]
+          String
+          class
+          
+         ex class abc{
+            int a=3;
+            float b=2.3;
+            String name = "shivam";
+            public static void main(String[] args){
+            System.out.println(a);
+            }
+          }
+
+ans 9. dot. operator is used to identify and call the reference type.
+       ex class abc{
+            static int a=3;
+             abc{
+             this.a=a;
+                }
+            public static void main(String[] args){
+            System.out.println(a);
+            }
+          }
+          
+
+ans 10. java features are
+        roburst and secure
+        platform independent 
+        high performance
+        code reusability
+ 
+ans 11. array is collection of similar type of data.
+        ex  class abc{
+            int[] a ={1,2,3,4,5};
+            
+            public static void main(String[], args){
+
+          }
+          }
+
+ans 12. class is a blueprint of an object or a template.
+        object is instance of a class that is used to represent real object by its behavior and properties.
+         
+        ex class Home{
+            }
+            class College{       
+            public static void main(String[] args){
+            Home home =new Home();       
+            }
+            }
+
+ans 13. keywords are a special words that are used in programming.
+        this
+        int 
+        float
+        byte
+        short
+        boolean
+        String
+        for 
+        while
+        do
+       ex class abc{
+            static int a=3;
+             abc{
+             this.a=a;
+                }
+            public static void main(String[] args){
+            System.out.println(a);
+            }
+          }
+
+ans 14. constructor 
+        it is a special method same name as class name
+        its main purpose is to initial the object
+        it does not have any return type
+        it is non static
+       type 
+       parameterised construct it sends parameter in the constructor
+       default constructor it is bydefault present in every java class which does't have any parameter
+
+ans 15.
+       main method is static because it is a main method and does't have any class or method in it
+       types
+       static methods are only acessible to static members only 
+       non static method that are not static.
+
+ans 16. 
+
+                     class abc{
+            static int[] a ={12,3,2,45,6,7,6};  
+            static void arcount(){
+			 System.out.println(a.length);	
+			}			
+            public static void main(String[] args){
+         
+           arcount();
+           
+  }
+
+  }
+    
+ans 17. method 
+          it is used to implement reusable code so that reusability can be achived.
+
+
+        method overloading 
+          it as a same name as a method but different parameters
+ 
+       ex
+        class abc
+         {
+         static String a="hello";
+         static void hello(){
+         System.out.println(a);
+         } 
+         static void hello(String a){
+         System.out.println(a);
+         }
+         public static void main(String[] args){
+         hello();
+         hello("hi");
+         }
+       }  
+        
+                 
+        
